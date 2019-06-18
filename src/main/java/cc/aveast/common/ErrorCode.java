@@ -1,4 +1,4 @@
-package cc.aveast.common.enumeration;
+package cc.aveast.common;
 
 public enum ErrorCode {
 
@@ -20,5 +20,13 @@ public enum ErrorCode {
 
     public boolean isIt(int code) {
         return this.code == code;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public String getDesc() {
+        return desc;
     }
 }
