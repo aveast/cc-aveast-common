@@ -7,6 +7,8 @@ public enum ErrorCode {
     EXCEPTION (-2   , "异常"),
 
 
+
+
     ;
 
     private int code;
