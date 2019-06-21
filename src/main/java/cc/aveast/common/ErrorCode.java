@@ -7,6 +7,12 @@ public enum ErrorCode {
     EXCEPTION (-2   , "异常"),
 
 
+    PARAM_TYPE_ERROR (-101, "变量类型错误"),
+
+    // -1000 : 序列化类
+    VARIABLE_TYPE_NOT_SUPPROT  (-1001, "变量类型不支持"),
+
+    // -1100 : 定长报文序列化
 
 
     ;
